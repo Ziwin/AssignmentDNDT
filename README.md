@@ -47,7 +47,24 @@ the network and slow the API down.
 However, I still went with files knowing the scope of this task and that there won't be as many users to slow down the API.
 
 # Routes
+## POST /image/upload
 Moving on, I'll be showing what the routes do.
+
+For the **POST** /image/upload route, it takes in form-data from the body:
+
+- image
+- name
+- comment
+
+We will be uploading a zebra picture I found online. It will then return an ID for the image and a message indicating the route's status.
+
+![img1](https://user-images.githubusercontent.com/65803097/216918895-0f28c279-6d7b-4857-aefb-66b33911c01a.png)
+
+## GET /image/{id}
+
+For the **GET** /image/{id} route, 
+
+
 
 
 
