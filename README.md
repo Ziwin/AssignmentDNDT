@@ -57,12 +57,61 @@ For the **POST** /image/upload route, it takes in form-data from the body:
 - comment
 
 We will be uploading a zebra picture I found online. It will then return an ID for the image and a message indicating the route's status.
+<br />  
+
+
 
 ![img1](https://user-images.githubusercontent.com/65803097/216918895-0f28c279-6d7b-4857-aefb-66b33911c01a.png)
 
 ## GET /image/{id}
 
-For the **GET** /image/{id} route, 
+For the **GET** /image/{id} route, it takes in an id from the url. We will be using the id that we got from above.
+
+After calling the **GET** route, we will be getting a zebra picture as follows:
+<br />  
+
+
+
+![img2](https://user-images.githubusercontent.com/65803097/216920314-5a15775a-3906-4c8d-80b7-d6ae5fb54c9b.png)
+
+## PATCH /image/info/{id}
+
+For the **PATCH** /image/info/{id} route, it takes in an id from the url, and a comment from the form-data in the body:
+
+- comment
+
+We are once again using the zebra picture id, and a comment indicating that it is a modified comment. After calling the **PATCH** route, it will then return
+a message indicating the comment has been modified as follows:
+<br />  
+
+
+![img3](https://user-images.githubusercontent.com/65803097/216920319-a7d1fbeb-8255-466d-8fcb-ae866ea115bc.png)
+
+## GET /image/info/{id}
+
+For the **GET** /image/info/{id} route, it takes in an id from the url.
+
+After inputting the zebra picture id, we will be greeted by a comment and the image's info below:
+<br />  
+
+![img4](https://user-images.githubusercontent.com/65803097/216920330-637578e3-7bd1-424f-9cc0-96b8fb7ce946.png)
+
+## GET /image
+
+For the **GET** /image route, it returns all the images in the **Image** directory
+
+It will return the result below when the API is called:
+<br />  
+
+![img5](https://user-images.githubusercontent.com/65803097/216920335-9d4e6bc0-9bd9-4d6c-b442-aa92ceef07d6.png)
+
+## GET /image/info
+
+Lastly, to get all the information about the images, we will call this API which will get all the information in the **Image** directory.
+
+When the API is called, it will return a list of dictionaries indicating the information of the images:
+<br />  
+![img6](https://user-images.githubusercontent.com/65803097/216920342-162528b1-2326-4c53-a9ce-5db8b150118f.png)
 
 
 
