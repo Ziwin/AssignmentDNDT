@@ -113,7 +113,9 @@ When the API is called, it will return a list of dictionaries indicating the inf
 <br />  
 ![img6](https://user-images.githubusercontent.com/65803097/216920342-162528b1-2326-4c53-a9ce-5db8b150118f.png)
 
+# Thank you!
 
+I've had fun doing this coding task. Thank you for following along!
 
 
 
